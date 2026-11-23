@@ -1,5 +1,8 @@
 #!/usr/bin/env python3
-"""Copy the pre-rendered entry image to the make.fun output directory."""
+"""Copy the pre-rendered entry image byte-for-byte to the make.fun output directory.
+
+No rendering, network access or environment-derived code execution happens here.
+"""
 
 import os
 from pathlib import Path
